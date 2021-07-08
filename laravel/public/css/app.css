@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .container {
   width: 1300px;
   margin: auto;
@@ -67,5 +71,56 @@ header .jumbotron {
   height: 500px;
   width: 100%;
   background-image: url("/../img/jumbotron.jpg");
+}
+
+footer {
+  background-image: url("/../img/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .footer_main {
+  display: flex;
+}
+
+footer .footer_main .left_side {
+  width: 50%;
+}
+
+footer .footer_main .left_side .columns {
+  display: flex;
+}
+
+footer .footer_main .left_side .columns .column {
+  margin: 2.5rem 2rem 2.5rem 0;
+}
+
+footer .footer_main .left_side .columns .column .title {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer_main .left_side .columns .column ul {
+  margin: 1rem 0;
+}
+
+footer .footer_main .left_side .columns .column ul li {
+  list-style: none;
+  margin: 0.75rem 0;
+}
+
+footer .footer_main .left_side .columns .column ul li a {
+  color: #777677;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+footer .footer_main .right_side {
+  width: 50%;
+  background-image: url("/../img/dc-logo-bg.png");
+  background-size: cover;
+  background-position: 0% 60%;
 }
 
