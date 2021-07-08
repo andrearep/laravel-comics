@@ -42,10 +42,10 @@
 
                 <input type="text" placeholder="SEARCH">
                 <span><i class="fas fa-search"></i></span>
-
-
             </div>
+
         </div>
+        <div class="jumbotron"></div>
 
     </header>
 

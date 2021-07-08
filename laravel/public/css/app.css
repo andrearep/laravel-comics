@@ -63,3 +63,9 @@ header .container .search span {
   color: #0C7CEC;
 }
 
+header .jumbotron {
+  height: 500px;
+  width: 100%;
+  background-image: url("/../img/jumbotron.jpg");
+}
+
