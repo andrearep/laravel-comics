@@ -3,12 +3,14 @@ footer{
     background-size: cover;
     .footer_main{
         display: flex;
+        
         .left_side{
             width: 50%;
+            margin: 2rem 0;
             .columns{
                 display: flex;
                 .column{
-                    margin: 2.5rem 2rem 2.5rem 0;
+                    margin: 1.5rem 2rem 1.5rem 0;
                     .title{
                         color: #FFFFFF;
                         text-transform: uppercase;
@@ -20,7 +22,7 @@ footer{
                         margin: 1rem 0;
                         li{
                             list-style: none;
-                            margin: 0.75rem 0;
+                            margin: 0.65rem 0;
                             a{
                                 color: #777677;
                                 text-decoration: none;
@@ -31,12 +33,55 @@ footer{
                     }
                 }
             }
+            span{
+                color: #777677;
+                font-size: 0.90rem;
+                a{
+                    text-decoration: none;
+                    color: #0C7CEC;
+                }
+            }
         }
         .right_side{
             width: 50%;
             background-image: url('/../img/dc-logo-bg.png');
             background-size: cover;
             background-position: 0% 60%;
+        }
+    }
+    .socials_c2a{
+        background-color: #303030;
+        padding: 2rem;
+        
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .c2a{
+                
+                button{
+                    color: #ffffff;
+                    background-color: #303030;
+                border: 1px solid #0C7CEC;
+                text-transform: uppercase;
+                padding: 0.75rem;
+                }
+            }
+            .socials{
+                display: flex;
+        align-items: center;
+                span{
+                    color: #0C7CEC;
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-right: 1rem;
+                }
+                img{
+                    height: 40px;
+                    margin-right: 1rem;
+                }
+            }
         }
     }
 }

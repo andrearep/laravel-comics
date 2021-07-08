@@ -84,6 +84,7 @@ footer .footer_main {
 
 footer .footer_main .left_side {
   width: 50%;
+  margin: 2rem 0;
 }
 
 footer .footer_main .left_side .columns {
@@ -91,7 +92,7 @@ footer .footer_main .left_side .columns {
 }
 
 footer .footer_main .left_side .columns .column {
-  margin: 2.5rem 2rem 2.5rem 0;
+  margin: 1.5rem 2rem 1.5rem 0;
 }
 
 footer .footer_main .left_side .columns .column .title {
@@ -108,7 +109,7 @@ footer .footer_main .left_side .columns .column ul {
 
 footer .footer_main .left_side .columns .column ul li {
   list-style: none;
-  margin: 0.75rem 0;
+  margin: 0.65rem 0;
 }
 
 footer .footer_main .left_side .columns .column ul li a {
@@ -117,10 +118,57 @@ footer .footer_main .left_side .columns .column ul li a {
   text-transform: capitalize;
 }
 
+footer .footer_main .left_side span {
+  color: #777677;
+  font-size: 0.9rem;
+}
+
+footer .footer_main .left_side span a {
+  text-decoration: none;
+  color: #0C7CEC;
+}
+
 footer .footer_main .right_side {
   width: 50%;
   background-image: url("/../img/dc-logo-bg.png");
   background-size: cover;
   background-position: 0% 60%;
+}
+
+footer .socials_c2a {
+  background-color: #303030;
+  padding: 2rem;
+}
+
+footer .socials_c2a .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .socials_c2a .container .c2a button {
+  color: #ffffff;
+  background-color: #303030;
+  border: 1px solid #0C7CEC;
+  text-transform: uppercase;
+  padding: 0.75rem;
+}
+
+footer .socials_c2a .container .socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .socials_c2a .container .socials span {
+  color: #0C7CEC;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+footer .socials_c2a .container .socials img {
+  height: 40px;
+  margin-right: 1rem;
 }
 

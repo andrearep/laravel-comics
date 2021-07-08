@@ -103,9 +103,27 @@
                             </ul>
                         </div>
                     </div>
+                    <span>All Site Content TM and 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. All
+                        rihts reserved. <a href="">Cookies Settings</a></span>
                 </div>
                 <div class="right_side">
-                    
+                </div>
+            </div>
+
+        </div>
+        <div class="socials_c2a">
+            <div class="container">
+                <div class="c2a">
+                    <button>sign-up now!</button>
+                </div>
+                <div class="socials">
+                    <span>follow us</span>
+                    <img src="{{ asset('img/footer-facebook.png') }}" alt="">
+                    <img src="{{ asset('img/footer-twitter.png') }}" alt="">
+                    <img src="{{ asset('img/footer-youtube.png') }}" alt="">
+                    <img src="{{ asset('img/footer-pinterest.png') }}" alt="">
+                    <img src="{{ asset('img/footer-periscope.png') }}" alt="">
+
                 </div>
             </div>
         </div>
