@@ -15,8 +15,16 @@
 </head>
 
 <body>
-    <h1>ciao a tutti</h1>
-    @yield('content')
+
+    <header>
+        <img src="{{ ('img/dc-logo.png') }}" alt="">
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+    </footer>
 </body>
 
 </html>
