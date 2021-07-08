@@ -1,0 +1,43 @@
+header{
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 0;
+        .logo{
+            img{height: 80px;}
+        }
+        nav{
+            a{
+                text-decoration: none;
+                margin-right: 2rem;
+                text-transform: uppercase;
+                color: #464646;
+                font-family: sans-serif;
+                font-size: 1rem;
+                font-weight: 700;
+                i{ color: #0C7CEC; }
+
+            }
+        }
+        .search{
+            border-bottom: 2px solid #0C7CEC ;
+            color: #0C7CEC;
+            display: flex;
+            input{
+                border: none;
+                text-align: right;
+                width: 140px;
+                ::placeholder { 
+                    color: #000000;
+                    
+                  }
+            }
+            span{
+                margin-left: 1rem;
+                color: #0C7CEC;
+            }
+        }
+
+    }
+}
