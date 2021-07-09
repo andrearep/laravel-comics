@@ -26,7 +26,7 @@
             </div>
 
             <nav>
-                <a href="">characers</a>
+                <a href="">characters</a>
                 <a href="">comics</a>
                 <a href="">movies</a>
                 <a href="">tv</a>
