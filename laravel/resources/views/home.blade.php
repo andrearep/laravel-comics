@@ -1,23 +1,22 @@
 @extends('layout.app')
 @section('content')
 
-<h2>bella</h2>
 
-<div class="container">
-    <div class="cards">
-        @foreach ($comics as $index => $comic)
-        <div>
+<main>
+    <div class="container">
+        <div class="cards">
+            @foreach ($comics as $index => $comic)
+            <div class="card">
+                <div class="cover">
+                    <img src="{{$comic['thumb']}}" class="card-img-top rounded-0" alt="...">
+                </div>
+                <span>
+                    {{$comic['series']}}
+                </span>
 
-            <div class="crop">
-                <img src="{{$comic['thumb']}}" class="card-img-top rounded-0" alt="...">
             </div>
-            <div id="card_body">
-                <h6 class="">{{$comic['series']}}</h6>
-            </div>
-            </a>
+            @endforeach
         </div>
-        @endforeach
     </div>
-</div>
-
+</main>
 @endsection

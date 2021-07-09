@@ -73,6 +73,36 @@ header .jumbotron {
   background-image: url("/../img/jumbotron.jpg");
 }
 
+main {
+  background-color: #1C1C1C;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main .cards .card {
+  width: 15%;
+  margin: 2rem 0;
+}
+
+main .cards .cover {
+  margin-bottom: 1.5rem;
+}
+
+main .cards .cover img {
+  width: 180px;
+}
+
+main .cards span {
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
 footer {
   background-image: url("/../img/footer-bg.jpg");
   background-size: cover;
