@@ -1,5 +1,17 @@
 main{
     background-color: #1C1C1C;
+    position: relative;
+    h2{
+        text-transform: uppercase;
+        color: white;
+        background-color: #0282F9;
+        position: absolute;
+        top: -2rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+
+        
+    }
     .cards{
         display: flex;
         flex-wrap: wrap;
@@ -8,7 +20,7 @@ main{
         width: 100%;
         .card{
             width: 15%;
-            margin: 2rem 0;
+            margin: 2.5rem 0;
         }
         .cover{
             margin-bottom: 1.5rem;
@@ -22,5 +34,18 @@ main{
             text-transform: uppercase;
         }
 
+    }
+
+    .load_more{
+        display: flex;
+        justify-content: center;
+        button{
+            text-transform: uppercase;
+            padding: 1rem;
+            color: #ffffff;
+            background-color: #0282F9;
+            margin-bottom: 3rem;
+
+        }
     }
 }

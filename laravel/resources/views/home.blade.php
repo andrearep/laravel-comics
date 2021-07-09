@@ -4,6 +4,7 @@
 
 <main>
     <div class="container">
+        <h2>current series</h2>
         <div class="cards">
             @foreach ($comics as $index => $comic)
             <div class="card">
@@ -17,6 +18,9 @@
             </div>
             @endforeach
         </div>
+    </div>
+    <div class="load_more">
+        <button>load more</button>
     </div>
 </main>
 @endsection
