@@ -96,7 +96,7 @@ main .cards {
 }
 
 main .cards .card {
-  width: 15%;
+  width: 100%;
   margin: 2.5rem 0;
 }
 
